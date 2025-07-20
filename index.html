@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratyush Tiwary - ML Engineer & Full-Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Progress Bar -->
+    <div id="progress-bar" class="progress-bar"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>PT</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#certificates" class="nav-link">Certificates</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Hi, I'm Pratyush Tiwary</h1>
+                    <p class="hero-subtitle">ML Engineer & Full-Stack Developer</p>
+                    <p class="hero-description">
+                        Passionate about machine learning, deep learning, and building scalable web applications. 
+                        Currently pursuing B.Tech in Computer Science Engineering with expertise in Python, TensorFlow, and modern web technologies.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn--primary">Get in Touch</a>
+                        <a href="#projects" class="btn btn--outline">View Projects</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://pplx-res.cloudinary.com/image/upload/v1748630439/pplx_project_search_images/bd9644e5660e7284872e2eb1c6216722c1dd27a1.jpg" alt="Developer workspace with dual monitors showing code" class="hero-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages</h3>
+                    <div class="skill-chips">
+                        <span class="skill-chip">C++</span>
+                        <span class="skill-chip">Python</span>
+                        <span class="skill-chip">Java</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frameworks</h3>
+                    <div class="skill-chips">
+                        <span class="skill-chip">Flask</span>
+                        <span class="skill-chip">TensorFlow</span>
+                        <span class="skill-chip">Keras</span>
+                        <span class="skill-chip">scikit-learn</span>
+                        <span class="skill-chip">Pandas</span>
+                        <span class="skill-chip">NumPy</span>
+                        <span class="skill-chip">PyTorch</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skill-chips">
+                        <span class="skill-chip">VS Code</span>
+                        <span class="skill-chip">Google Colab</span>
+                        <span class="skill-chip">Git</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <div class="skill-chips">
+                        <span class="skill-chip">Problem Solving</span>
+                        <span class="skill-chip">Team Player</span>
+                        <span class="skill-chip">Project Management</span>
+                        <span class="skill-chip">Adaptability</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section--alt">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1752748034/pplx_project_search_images/b8b72e336b702a4f4d8fedf21f512857f736049b.jpg" alt="Movie recommendation system interface" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/piyushtiwary/movie-recommender" target="_blank" class="btn btn--primary btn--sm">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                                <a href="#" class="btn btn--outline btn--sm">
+                                    <i class="fas fa-external-link-alt"></i> Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Movie Recommendation System</h3>
+                        <ul class="project-features">
+                            <li>Content-based filtering engine using CountVectorizer and cosine similarity</li>
+                            <li>Flask API with responsive web UI for real-time suggestions</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">scikit-learn</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">NumPy</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1581092028368-0d328f1a0f58?auto=format&fit=crop&w=1200&q=60" alt="Medical research and data analysis" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/piyushtiwary/malaria-detection" target="_blank" class="btn btn--primary btn--sm">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                                <a href="#" class="btn btn--outline btn--sm">
+                                    <i class="fas fa-external-link-alt"></i> Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Malaria Detection using CNN</h3>
+                        <ul class="project-features">
+                            <li>Custom CNN trained on NIH malaria cell images dataset (99% accuracy)</li>
+                            <li>TensorFlow Datasets pipeline with data augmentation and real-time validation</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Keras</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">OpenCV</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1748539972/pplx_project_search_images/b588ca1b2aa949f33a08486db8b389dee0afa99a.jpg" alt="YOLO object detection showing dog, bicycle and truck" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/piyushtiwary/yolo-object-detection" target="_blank" class="btn btn--primary btn--sm">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                                <a href="#" class="btn btn--outline btn--sm">
+                                    <i class="fas fa-external-link-alt"></i> Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">YOLO-Inspired Object Detection System</h3>
+                        <ul class="project-features">
+                            <li>Implemented grid-based output structure similar to YOLO on VOC2012 dataset</li>
+                            <li>Custom loss function for localization, confidence and classification</li>
+                        </ul>
+                        <div class="tech-stack">
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Keras</span>
+                            <span class="tech-tag">Albumentations</span>
+                            <span class="tech-tag">tf.data</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="section">
+        <div class="container">
+            <h2 class="section-title">Certificates</h2>
+            <div class="certificates-table">
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Certificate Name</th>
+                                <th>Issuer</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>100 Days of Code: Python Pro Bootcamp</td>
+                                <td>Udemy</td>
+                                <td>Mar 2024</td>
+                            </tr>
+                            <tr>
+                                <td>C++ Data Structures & Algorithms</td>
+                                <td>Udemy</td>
+                                <td>Jul 2024</td>
+                            </tr>
+                            <tr>
+                                <td>Supervised Machine Learning: Regression & Classification</td>
+                                <td>Coursera</td>
+                                <td>Oct 2024</td>
+                            </tr>
+                            <tr>
+                                <td>Neural Networks & Deep Learning</td>
+                                <td>Coursera</td>
+                                <td>Oct 2024</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section section--alt">
+        <div class="container">
+            <h2 class="section-title">Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <p>9th place – Gear Up Season 2 (2023): Market-connect platform for MSMEs</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <p>4th place – Build-a-Thon 2024: Deep-fake detection model (93% accuracy)</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>HackerRank Python – 5-Star rating</p>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <p>Solved 300+ DSA problems across platforms</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>B.Tech – Computer Science & Engineering</h3>
+                        <p class="institution">Lovely Professional University</p>
+                        <p class="duration">2022 – Present</p>
+                        <p class="grade">CGPA: 7.00</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Intermediate</h3>
+                        <p class="institution">Surendranath Centenary School</p>
+                        <p class="duration">2020 – 2022</p>
+                        <p class="grade">Percentage: 73%</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Matriculation</h3>
+                        <p class="institution">Bishop Westcott Boys' School</p>
+                        <p class="duration">2018 – 2020</p>
+                        <p class="grade">Percentage: 84%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section--alt">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's work together</h3>
+                    <p>I'm always open to discussing new opportunities, interesting projects, or just having a chat about technology and machine learning.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>pratyushtiwary2404@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91-9631910833</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Punjab, India</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/pratyushtiwary/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/piyushtiwary" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:pratyushtiwary2404@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                <p class="copyright">© 2025 Pratyush Tiwary. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast notification -->
+    <div id="toast" class="toast">
+        <div class="toast-content">
+            <i class="toast-icon"></i>
+            <span class="toast-message"></span>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
